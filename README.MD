@@ -1,6 +1,6 @@
 **Leap year with function-- python**
 
-Absolutely. Let's understand it **step by step**.
+Let's understand it **step by step**.
 
 ### The code
 
