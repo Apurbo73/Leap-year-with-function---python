@@ -236,3 +236,18 @@ So:
 | 1900 | `False` | Divisible by 100, but not 400 |
 | 2000 | `True`  | Divisible by 400              |
 | 1990 | `False` | Not divisible by 4            |
+
+
+**Another Version**
+def is_leap(year):
+    
+    if  year % 4==0 and year % 400==0:
+        return True
+    elif year% 100 ==0 and year %400==0:
+        return True
+    else:
+        return False
+        
+
+year = int(input())
+print(is_leap(year))
